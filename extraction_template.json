@@ -1,0 +1,14 @@
+{
+    "Invoice Number": {
+        "rule": "Find 'Invoice No' or 'Invoice #' and extract the following numeric value."
+    },
+    "Invoice Date": {
+        "rule": "Find 'Date' and extract in DD/MM/YYYY format."
+    },
+    "Vendor Name": {
+        "rule": "Find 'Vendor' and extract the name."
+    },
+    "Line Items": {
+        "rule": "Extract table rows for items with columns: Item Name, Quantity, Price."
+    }
+}

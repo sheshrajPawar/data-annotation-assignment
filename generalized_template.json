@@ -1,0 +1,14 @@
+{
+    "Invoice Number": {
+        "rule": "Find keywords like 'Invoice No', 'Invoice #', or 'Invoice ID' and extract the numeric value."
+    },
+    "Invoice Date": {
+        "rule": "Look for 'Date' and extract in formats like DD/MM/YYYY or MM-DD-YYYY."
+    },
+    "Vendor Name": {
+        "rule": "Find 'Vendor' or 'Supplier' and extract the name."
+    },
+    "Line Items": {
+        "rule": "Extract items from the table, regardless of column order."
+    }
+}
